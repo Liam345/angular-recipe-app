@@ -8,6 +8,7 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe("A Test Recipe", "This is a Test","https://pinchofyum.com/wp-content/uploads/Crockpot-Braised-Beef-Ragu.jpg"),
     new Recipe("A Test Recipe", "This is a Test","https://pinchofyum.com/wp-content/uploads/Crockpot-Braised-Beef-Ragu.jpg")
   ];
   constructor() { }
